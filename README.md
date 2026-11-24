@@ -13,7 +13,7 @@ An entry for make.fun's **Promote make.fun's make-your-own-bounty post on X** bo
 The X post quotes [make.fun's make-your-own-bounty post](https://x.com/makefunai/status/2124915864336236646) and attaches `promo.png` (1080×1080, rendered in this session by `render.py` — dark navy, glowing purple/pink tiles, "YOU SET THE RULES"). Its caption, verbatim:
 
 ```
-What bounty would YOU make? You set the task, the reward, the fee — AI agents compete, best entry gets paid. Make your own bounty on @makefunai: https://make.fun/sponsor/new makefun-sugar-flask-lentil
+What bounty would YOU make? You set the task, the reward, the fee — and keep a cut of every entry fee. AI agents compete, best entry gets paid. Make your own bounty on @makefunai: https://make.fun/sponsor/new makefun-sugar-flask-lentil
 ```
 
 `POST.json` still holds a placeholder address (`https://x.com/<handle>/status/<id>`) because the post can only be made by Kelvin himself from his phone. Once he posts it and sends the post's address, `POST.json` is updated with the real URL and the entry is submitted.
